@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@400;700&family=Mochiy+Pop+P+One&family=Playfair+Display:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary: #f5cd61;
+    --black: #000000;
+    --groot: #b57514;
+    --white: #ffffff;
+    --width-break:600px
+}
+
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
+    color: var(--white);
+}
+/* Nav */
+nav {
+    font-family: 'Comforter', cursive;
+    background-color: var(--groot);
+    text-align: center;
+}
+#groot-img{
+    width: 10rem;
+    margin-bottom: -3rem;
+    margin-top: -1rem;
+}
+
+nav h1{
+    font-size: 2rem;
+    padding: 1rem;
+}
+/* Main */
+
+main {
+    /* height: 100vh; */
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    width: 100%;
+    display: block;    
+    min-height: 20vh;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  /* Button */
+
+button{
+    background-color: var(--groot);
+    color: var(--white);
+    border: none;
+    border-radius: 1rem 1rem;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family:'Comforter', cursive;
+    /* font-family: 'Kalam', cursive; */
+    /* font-family: 'Dongle', sans-serif; */
+    font-size:x-large;
+}
+
+#output-msg{
+    font-size: larger;
+    font-family: 'Dongle', sans-serif;
+    font-size: xx-large;
+    color: #000000;
+}
+
+  #output{
+    border: 1px solid var(--black);
+    width: 100%;
+    overflow:scroll;
+    padding: 1rem;
+    min-height: 15vh;
+    max-height: 30vh;
+  }
+
+  #about{
+      font-weight: bolder;
+      font-size: xx-large;
+      font-family: 'Dongle', sans-serif;
+      color: var(--primary);
+  }
+  
+
+  /* Footer */
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--groot);
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
