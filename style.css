@@ -14,7 +14,7 @@
     --black: #000000;
     --groot: #b57514;
     --white: #ffffff;
-    --width-break:600px
+    --width-break:600px;
 }
 
 body{
@@ -81,8 +81,9 @@ button{
     color: #000000;
 }
 
-  #output{
+#output{
     border: 1px solid var(--black);
+    color: var(--black);
     width: 100%;
     overflow:scroll;
     padding: 1rem;
@@ -90,7 +91,7 @@ button{
     max-height: 30vh;
   }
 
-  #about{
+#about{
       font-weight: bolder;
       font-size: xx-large;
       font-family: 'Dongle', sans-serif;
@@ -99,7 +100,7 @@ button{
   
 
   /* Footer */
-  footer {
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
